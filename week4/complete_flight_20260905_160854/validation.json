@@ -1,0 +1,104 @@
+{
+  "counts": {
+    "/fmu/out/vehicle_attitude": 1420,
+    "/fmu/out/vehicle_local_position_v1": 1419,
+    "/fmu/out/vehicle_global_position": 1419,
+    "/world/aruco/model/x500_mono_cam_down_0/link/camera_link/sensor/camera/image": 272,
+    "/week4/camera_info": 272,
+    "/week4/target/detection": 272,
+    "/fmu/out/vehicle_status_v4": 61,
+    "/fmu/out/vehicle_land_detected": 32,
+    "/fmu/in/vehicle_command": 3,
+    "/fmu/out/vehicle_command_ack_v1": 3,
+    "/week4/target/pose_camera": 173
+  },
+  "duration_wall_s": 76.374372273,
+  "topic_timestamp_regressions": {
+    "/fmu/out/vehicle_attitude": 0,
+    "/fmu/out/vehicle_local_position_v1": 0,
+    "/fmu/out/vehicle_global_position": 0,
+    "/world/aruco/model/x500_mono_cam_down_0/link/camera_link/sensor/camera/image": 0,
+    "/week4/camera_info": 0,
+    "/week4/target/detection": 0,
+    "/fmu/out/vehicle_status_v4": 0,
+    "/fmu/out/vehicle_land_detected": 0,
+    "/fmu/in/vehicle_command": 0,
+    "/fmu/out/vehicle_command_ack_v1": 0,
+    "/week4/target/pose_camera": 0
+  },
+  "position_first": [
+    1788595734648912337,
+    1788595728703504,
+    -0.028943831101059914,
+    0.008641054853796959,
+    0.011146917939186096,
+    0.003156266873702407,
+    -0.008218187838792801,
+    -0.0012528856750577688
+  ],
+  "position_last": [
+    1788595810960821068,
+    1788595795738891,
+    -0.02717512659728527,
+    0.010464032180607319,
+    0.054645344614982605,
+    -0.005964999552816153,
+    -0.00014576149987988174,
+    0.0009853800293058157
+  ],
+  "max_height_relative_start_m": 3.008392944931984,
+  "position_velocity_all_finite": true,
+  "arming_states": [
+    1,
+    2
+  ],
+  "nav_states": [
+    4,
+    17,
+    18
+  ],
+  "any_failsafe": false,
+  "land_first_last": [
+    [
+      1788595736287886956,
+      true
+    ],
+    [
+      1788595810512849683,
+      true
+    ]
+  ],
+  "airborne_samples": 25,
+  "image_frames": 272,
+  "nonuniform_image_frames": 183,
+  "image_sim_duration_s": 28.21599999999944,
+  "image_mean_wall_fps": 3.56618970377617,
+  "image_max_wall_gap_s": 1.18056064,
+  "valid_visual_detections": 173,
+  "target_translation_min_m": [
+    -0.15848052663384543,
+    -0.06526626039460948,
+    0.364008821732481
+  ],
+  "target_translation_max_m": [
+    0.006536306880385326,
+    0.04946225532668773,
+    3.1457021605979962
+  ],
+  "command_acks": [
+    [
+      400,
+      0
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      21,
+      0
+    ]
+  ],
+  "complete_flight_verified": true,
+  "rosbag_info_total_messages": 5346
+}

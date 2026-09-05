@@ -1,0 +1,181 @@
+{
+  "domain_id": 74,
+  "excluded_control_topic": "/fmu/in/vehicle_command",
+  "player_exit_code": 0,
+  "received_counts": {
+    "/fmu/out/vehicle_attitude": 1420,
+    "/fmu/out/vehicle_global_position": 1419,
+    "/fmu/out/vehicle_local_position_v1": 1419,
+    "/world/aruco/model/x500_mono_cam_down_0/link/camera_link/sensor/camera/image": 272,
+    "/week4/camera_info": 272,
+    "/week4/target/detection": 272,
+    "/fmu/out/vehicle_status_v4": 61,
+    "/fmu/out/vehicle_land_detected": 32,
+    "/fmu/out/vehicle_command_ack_v1": 3,
+    "/week4/target/pose_camera": 173
+  },
+  "images": {
+    "nonuniform": 183
+  },
+  "graph": {
+    "nodes": [
+      "week4_replay_verifier",
+      "rosbag2_player"
+    ],
+    "services": [
+      [
+        "/rosbag2_player/burst",
+        [
+          "rosbag2_interfaces/srv/Burst"
+        ]
+      ],
+      [
+        "/rosbag2_player/describe_parameters",
+        [
+          "rcl_interfaces/srv/DescribeParameters"
+        ]
+      ],
+      [
+        "/rosbag2_player/get_parameter_types",
+        [
+          "rcl_interfaces/srv/GetParameterTypes"
+        ]
+      ],
+      [
+        "/rosbag2_player/get_parameters",
+        [
+          "rcl_interfaces/srv/GetParameters"
+        ]
+      ],
+      [
+        "/rosbag2_player/get_rate",
+        [
+          "rosbag2_interfaces/srv/GetRate"
+        ]
+      ],
+      [
+        "/rosbag2_player/get_type_description",
+        [
+          "type_description_interfaces/srv/GetTypeDescription"
+        ]
+      ],
+      [
+        "/rosbag2_player/is_paused",
+        [
+          "rosbag2_interfaces/srv/IsPaused"
+        ]
+      ],
+      [
+        "/rosbag2_player/list_parameters",
+        [
+          "rcl_interfaces/srv/ListParameters"
+        ]
+      ],
+      [
+        "/rosbag2_player/pause",
+        [
+          "rosbag2_interfaces/srv/Pause"
+        ]
+      ],
+      [
+        "/rosbag2_player/play",
+        [
+          "rosbag2_interfaces/srv/Play"
+        ]
+      ],
+      [
+        "/rosbag2_player/play_next",
+        [
+          "rosbag2_interfaces/srv/PlayNext"
+        ]
+      ],
+      [
+        "/rosbag2_player/resume",
+        [
+          "rosbag2_interfaces/srv/Resume"
+        ]
+      ],
+      [
+        "/rosbag2_player/seek",
+        [
+          "rosbag2_interfaces/srv/Seek"
+        ]
+      ],
+      [
+        "/rosbag2_player/set_parameters",
+        [
+          "rcl_interfaces/srv/SetParameters"
+        ]
+      ],
+      [
+        "/rosbag2_player/set_parameters_atomically",
+        [
+          "rcl_interfaces/srv/SetParametersAtomically"
+        ]
+      ],
+      [
+        "/rosbag2_player/set_rate",
+        [
+          "rosbag2_interfaces/srv/SetRate"
+        ]
+      ],
+      [
+        "/rosbag2_player/stop",
+        [
+          "rosbag2_interfaces/srv/Stop"
+        ]
+      ],
+      [
+        "/rosbag2_player/toggle_paused",
+        [
+          "rosbag2_interfaces/srv/TogglePaused"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/describe_parameters",
+        [
+          "rcl_interfaces/srv/DescribeParameters"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/get_parameter_types",
+        [
+          "rcl_interfaces/srv/GetParameterTypes"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/get_parameters",
+        [
+          "rcl_interfaces/srv/GetParameters"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/get_type_description",
+        [
+          "type_description_interfaces/srv/GetTypeDescription"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/list_parameters",
+        [
+          "rcl_interfaces/srv/ListParameters"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/set_parameters",
+        [
+          "rcl_interfaces/srv/SetParameters"
+        ]
+      ],
+      [
+        "/week4_replay_verifier/set_parameters_atomically",
+        [
+          "rcl_interfaces/srv/SetParametersAtomically"
+        ]
+      ]
+    ]
+  },
+  "get_rate_service_result": 1.0,
+  "subscription_qos": "RELIABLE depth 100",
+  "all_expected_counts_match": true
+}

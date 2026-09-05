@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "wall_elapsed": 1.720588553998823,
+      "kind": "baseline",
+      "z": 0.006990537047386169
+    },
+    {
+      "wall_elapsed": 1.7229937939991942,
+      "kind": "command",
+      "command": 400,
+      "params": {
+        "param1": 1.0
+      }
+    },
+    {
+      "wall_elapsed": 1.8428370319998066,
+      "kind": "command",
+      "command": 22,
+      "params": {
+        "param4": NaN,
+        "param5": NaN,
+        "param6": NaN,
+        "param7": 3.2160142064094543
+      }
+    },
+    {
+      "wall_elapsed": 24.715589103001548,
+      "kind": "hover_start",
+      "z": -2.494325876235962
+    },
+    {
+      "wall_elapsed": 49.51153588200032,
+      "kind": "hover_end",
+      "detections": 132
+    },
+    {
+      "wall_elapsed": 49.51181167899995,
+      "kind": "command",
+      "command": 21,
+      "params": {
+        "param4": NaN,
+        "param5": NaN,
+        "param6": NaN
+      }
+    },
+    {
+      "wall_elapsed": 71.4546192730013,
+      "kind": "landed_disarmed",
+      "z": 0.06403931975364685
+    },
+    {
+      "wall_elapsed": 76.45546884400028,
+      "kind": "complete"
+    }
+  ],
+  "counts": {
+    "/fmu/out/vehicle_attitude": 1420,
+    "/fmu/out/vehicle_local_position_v1": 1419,
+    "/fmu/out/vehicle_status_v4": 61,
+    "/fmu/out/vehicle_land_detected": 32,
+    "/fmu/out/vehicle_global_position": 1419,
+    "/fmu/out/vehicle_command_ack_v1": 3,
+    "/world/aruco/model/x500_mono_cam_down_0/link/camera_link/sensor/camera/image": 272,
+    "/week4/target/pose_camera": 173,
+    "/week4/target/detection": 272,
+    "/week4/camera_info": 272,
+    "/fmu/in/vehicle_command": 3
+  },
+  "detections": 173,
+  "duration_wall": 76.4556295830007,
+  "intrinsics": [
+    [
+      539.9363680245298,
+      0.0,
+      640.0
+    ],
+    [
+      0.0,
+      539.9363680245298,
+      480.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "marker_size_m": 0.5,
+  "bag_timestamp": "host Unix reception time ns",
+  "image_timestamp": "Gazebo simulation time",
+  "pose_frame": "camera optical: x right, y down, z forward; target relative to camera; visual estimate"
+}

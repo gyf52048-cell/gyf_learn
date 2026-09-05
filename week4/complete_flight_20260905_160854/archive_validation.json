@@ -1,0 +1,6 @@
+{
+  "archive": "rosbag.tar.gz",
+  "archive_bytes": 6290879,
+  "original_mcap_sha256": "fb0d76d0553cc23e84a93db2e57d5f7c8ce1b0855afbee4619a1831bc89d24f2",
+  "decompressed_mcap_hash_matches": true
+}

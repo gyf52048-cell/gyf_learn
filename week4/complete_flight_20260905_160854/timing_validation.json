@@ -1,0 +1,10 @@
+{
+  "quaternion_norm_min": 0.9999999648180155,
+  "quaternion_norm_max": 1.0000001013824042,
+  "attitude_source_timestamp_regressions": 0,
+  "position_source_timestamp_regressions": 0,
+  "image_source_timestamp_regressions": 0,
+  "hover_wall_s": 24.79594677899877,
+  "hover_image_sim_span_s": 8.579999999999927,
+  "overall_image_sim_to_wall_ratio": 0.3713048290839351
+}
